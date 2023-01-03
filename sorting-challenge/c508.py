@@ -1,0 +1,7 @@
+n = int(input())
+nums = list(map(int, input().split()))
+nums.sort()
+print(' '.join([str(i) for i in nums]))
+nums = list(set(nums))
+nums.sort()
+print(' '.join([str(i) for i in nums[::-1]]))

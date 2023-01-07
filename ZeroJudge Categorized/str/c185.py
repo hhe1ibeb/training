@@ -1,0 +1,1 @@
+print('Hey %s' % input())

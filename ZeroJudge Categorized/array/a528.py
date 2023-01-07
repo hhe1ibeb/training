@@ -1,0 +1,10 @@
+try:
+    while True:
+        n = int(input()); nums = []
+        for i in range(n):
+            nums.append(int(input()))
+        nums.sort()
+        for i in nums:
+            print(i)
+except EOFError:
+    pass
